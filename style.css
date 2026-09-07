@@ -27,6 +27,9 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   background: var(--primary);
   line-height: 10.5em;
 }
@@ -37,6 +40,8 @@
   letter-spacing: 0.3em;
   color: var(--primary2);
   overflow: hidden;
+  text-align: center;
+  margin-left: 1em;
 }
 
 .main h2 {
