@@ -395,7 +395,7 @@
   border-bottom: 0.1em solid var(--primary);
   letter-spacing: 0.1em;
   margin-bottom: 2em;
-  transform: translateX(-10%);
+  transform: translateX(-5%);
   font-size: max(5vw, 2.5em);
 }
 
