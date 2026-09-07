@@ -39,7 +39,19 @@
   color: var(--primary2);
   overflow: hidden;
   text-align: center;
-  margin-left: 0.1em;
+  margin-left: 0.4em;
+}
+
+@media (min-width: 700px) {
+  .main h1 {
+    margin-left: 0.1em;
+  }
+}
+
+@media (min-width: 1250px) {
+  .main h1 {
+    margin-left: 0.1em;
+  }
 }
 
 .main h2 {
@@ -353,7 +365,7 @@
 
 .social {
   width: 100%;
-  height: 80vw;
+  height: 90vw;
   min-height: 60vh;
   padding: 1em;
   background: var(--primary3);
@@ -362,6 +374,19 @@
   flex-direction: column;
   align-items: center;
   left: 0;
+}
+
+
+@media (min-width: 700px) {
+  .social {
+    height: 85vw;
+  }
+}
+
+@media (min-width: 1250px) {
+  .social {
+    height: 80vw;
+  }
 }
 
 .social > h1 {
